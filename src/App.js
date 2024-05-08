@@ -1,21 +1,22 @@
-import logo from './logo.svg';
+import Button from "./Button.js";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="\bitcoinLogo.JPG" className="App-logo" alt="bitcoinLogo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          We acceptl Bitcoin!
         </p>
+        <Button />
         <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Welcome to the homepage of Webbstyr!
         </a>
       </header>
     </div>
